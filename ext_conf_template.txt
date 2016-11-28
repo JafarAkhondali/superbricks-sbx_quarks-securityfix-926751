@@ -1,0 +1,5 @@
+# customcategory=elements=LLL:EXT:sbx_quarks/Resources/Private/Language/locallang.xlf:extconf.elements
+elements {
+	# cat=elements/code; type=boolean; label=LLL:EXT:sbx_quarks/Resources/Private/Language/locallang.xlf:extconf.elements.code_element
+	codeElement = 1
+}

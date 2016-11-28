@@ -1,0 +1,33 @@
+lib.tx_sbxquarks {
+  form {
+    element < lib.fluidContent
+    element = FLUIDTEMPLATE
+    element {
+      templateRootPaths {
+        10 = EXT:sbx_quarks/Resources/Private/HTML/Frontend/Form/Element/Templates/
+      }
+
+      partialRootPaths {
+        10 = EXT:sbx_quarks/Resources/Private/HTML/Frontend/Form/Element/Partials/
+      }
+
+      layoutRootPaths {
+        10 = EXT:sbx_quarks/Resources/Private/HTML/Frontend/Form/Element/Layouts/
+      }
+    }
+  }
+}
+
+module.tx_sbxquarks.view {
+  templateRootPaths {
+    0 = EXT:sbx_quarks/Resources/Private/HTML/Backend/
+  }
+
+  partialRootPaths {
+    0 = EXT:sbx_quarks/Resources/Private/HTML/Backend/
+  }
+
+  layoutRootPaths {
+    0 = EXT:sbx_quarks/Resources/Private/HTML/Backend/
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"name": "superbricks/quarks",
+	"description": "Advanced content elements for TYPO3",
+	"type": "typo3-cms-extension",
+	"license": "GPL-2.0",
+	"require": {
+		"typo3/cms": "^7.6 || ^8.5"
+	},
+	"authors": [
+		{
+			"name": "Oliver Eglseder",
+			"email": "php@vxvr.de",
+			"homepage": "https://vxvr.de",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://github.com/superbricks/sbx_quarks",
+	"replace": {
+		"sbx_quarks": "self.version",
+		"typo3-ter/sbx_quarks": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"SuperBricks\\Quarks\\": "Classes/"
+		}
+	},
+	"keywords": [
+		"content",
+		"content element",
+		"TYPO3",
+		"TYPO3 content element"
+	],
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}

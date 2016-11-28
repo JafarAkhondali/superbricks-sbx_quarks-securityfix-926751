@@ -1,0 +1,5 @@
+tt_content.code_element =< lib.tx_sbxquarks.form.element
+tt_content.code_element {
+  templateName = CodeElement
+}
+config.contentObjectExceptionHandler = 0

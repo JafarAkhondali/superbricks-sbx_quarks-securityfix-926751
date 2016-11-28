@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="sbx_quarks">
+		<header/>
+		<body>
+			<trans-unit id="extconf.elements">
+				<source>Content Elements</source>
+			</trans-unit>
+			<trans-unit id="extconf.elements.code_element">
+				<source>Code Element</source>
+			</trans-unit>
+
+			<trans-unit id="element.code_element.title">
+				<source>Code Element</source>
+			</trans-unit>
+			<trans-unit id="element.code_element.descriptiont">
+				<source>Special code element with language specific syntax highlighter based on ace editor</source>
+			</trans-unit>
+			<trans-unit id="element.code_element.field.tx_quarks_code_element_code_language">
+				<source>Code Language</source>
+			</trans-unit>
+			<trans-unit id="element.code_element.field.tx_quarks_code_element_code">
+				<source>Code</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

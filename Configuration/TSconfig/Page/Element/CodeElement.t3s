@@ -1,0 +1,14 @@
+mod.wizards.newContentElement.wizardItems.common {
+  elements {
+    code_element {
+      iconIdentifier = content-code_element
+      title = LLL:EXT:sbx_quarks/Resources/Private/Language/locallang.xlf:element.code_element.title
+      description = LLL:EXT:sbx_quarks/Resources/Private/Language/locallang.xlf:element.code_element.description
+      tt_content_defValues {
+        CType = code_element
+      }
+    }
+  }
+
+  show := addToList(code_element)
+}

@@ -1,0 +1,20 @@
+<div class="t3js-formengine-field-item">
+	<div class="t3-form-field-disable"></div>
+	<textarea
+		id="{attributes.id}"
+		class="{attributes.class}"
+		name="{attributes.name}"
+		style="{attributes.style}"
+		rows="{attributes.rows}"
+		maxlength="{attributes.maxlength}"
+		placeholder="{attributes.placeholder}"
+		onchange="{attributes.onChange}"
+		data-code-lang="{attributes.data-code-lang}"
+	>{data.content}</textarea>
+	<f:comment>
+		now comes the magic: add a hidden div for the ace editor (ace can not be applied to a textare)
+		and the JS will flip the visibility of the textarea with the div, which the gets initialized with
+		the ace editor. When the page is save the contents of the editor will be written back to the textarea.
+	</f:comment>
+	<div class="hidden ace-editor form-control t3js-formengine-textarea formengine-textarea" data-textarea-id="{attributes.id}"></div>
+</div>
